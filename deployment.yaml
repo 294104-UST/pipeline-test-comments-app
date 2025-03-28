@@ -15,6 +15,7 @@ spec:
       containers:
         - name: springbootcomments-app
           image: 294104ust/docker_example_img:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:
